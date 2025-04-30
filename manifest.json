@@ -1,0 +1,10 @@
+{
+    "display_name": "提示词 Token 计数器",
+    "loading_order": 3,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "author": "你的名字",
+    "version": "1.0.0",
+    "homePage": ""
+}
