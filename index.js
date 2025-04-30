@@ -1,8 +1,9 @@
 // 导入必要的模块
 import { getContext, extension_settings } from '../../../extensions.js'; // 确保路径正确
-import { eventSource, event_types, getTokenCountAsync, main_api } from '../../../../script.js'; // 确保路径正确
+import { eventSource, event_types, main_api } from '../../../../script.js'; // 确保路径正确
+import { getTokenCountAsync } from '../../../tokenizers.js';
 
-const extensionName = "consumed-prompt-token-counter"; // 确保与你的插件文件夹名称一致
+const extensionName = "tokens"; // 确保与你的插件文件夹名称一致
 
 // --- 插件作用域内的临时变量 ---
 let lastCalculatedPromptTokens = 0;
